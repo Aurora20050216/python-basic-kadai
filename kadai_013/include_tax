@@ -1,0 +1,6 @@
+def include_tax(price, tax_rate):
+  return price*(1+tax_rate/100)
+
+price = 980
+tax_rate = 10
+print(include_tax(price,tax_rate))
