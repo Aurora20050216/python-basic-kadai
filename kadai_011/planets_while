@@ -1,0 +1,6 @@
+array = ["水","金","地","火","木","土","天","海","冥"]
+
+cnt = 0
+while cnt < 18:
+  print(array[cnt%9])
+  cnt += 1
